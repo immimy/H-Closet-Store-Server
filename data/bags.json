@@ -1,0 +1,502 @@
+[
+  {
+    "name": "Urban Voyager",
+    "type": "Backpack",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg",
+    "description": "ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam",
+    "color": ["#461fce", "#2b2d58", "#d332ca"],
+    "price": 178.15,
+    "inventory": [471, 350, 669]
+  },
+  {
+    "name": "Elite Messenger",
+    "type": "Hiking Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/13945428/pexels-photo-13945428.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at",
+    "color": ["#369082"],
+    "price": 135.76,
+    "inventory": [304]
+  },
+  {
+    "name": "Alpine Trek",
+    "type": "Backpack",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/934673/pexels-photo-934673.jpeg",
+    "description": "sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt",
+    "color": ["#445857", "#8e33c0"],
+    "price": 93.08,
+    "inventory": [433, 252]
+  },
+  {
+    "name": "City Commuter",
+    "type": "Messenger Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/10194236/pexels-photo-10194236.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan",
+    "color": ["#444ad3", "#46ee41", "#ff5aa6"],
+    "price": 112.03,
+    "inventory": [203, 303, 155]
+  },
+  {
+    "name": "Traveler’s Choice",
+    "type": "Backpack",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/27911168/pexels-photo-27911168/free-photo-of-bag.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis",
+    "color": ["#ccd10f"],
+    "price": 72.97,
+    "inventory": [336]
+  },
+  {
+    "name": "Serenity Satchel",
+    "type": "Hiking Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/10762576/pexels-photo-10762576.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi",
+    "color": ["#6b6507", "#86620a", "#5920ce", "#b26dcd", "#ec56d4"],
+    "price": 130.12,
+    "inventory": [233, 284, 269, 222, 200]
+  },
+  {
+    "name": "Midnight Sling",
+    "type": "Handbag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/1204464/pexels-photo-1204464.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor",
+    "color": ["#e82cf9", "#2a18c1", "#f4e816", "#2f292b"],
+    "price": 33.45,
+    "inventory": [355, 365, 348, 399]
+  },
+  {
+    "name": "Classic Wanderer",
+    "type": "Tote Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/1527004/pexels-photo-1527004.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum",
+    "color": ["#94aa66", "#a67ad9", "#8ed5dc", "#968d91", "#496bcb"],
+    "price": 191.31,
+    "inventory": [137, 100, 99, 54, 155]
+  },
+  {
+    "name": "Luxe Handbag",
+    "type": "Sling Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/904350/pexels-photo-904350.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit",
+    "color": ["#13fa59", "#d26e41"],
+    "price": 133.32,
+    "inventory": [442, 468]
+  },
+  {
+    "name": "Explorer Pack",
+    "type": "Hiking Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/10771804/pexels-photo-10771804.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut",
+    "color": ["#008958", "#d7f3da", "#ec8639", "#17b995", "#248feb"],
+    "price": 192.38,
+    "inventory": [101, 99, 98, 185, 206]
+  },
+  {
+    "name": "Downtown Tote",
+    "type": "Beach Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/8093148/pexels-photo-8093148.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis",
+    "color": ["#9b6db7", "#6758ee"],
+    "price": 65.64,
+    "inventory": [330, 369]
+  },
+  {
+    "name": "Expedition Duffel",
+    "type": "Satchel",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/17190703/pexels-photo-17190703/free-photo-of-woman-wearing-tote-bag-and-camera-on-her-shoulder.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet",
+    "color": ["#f1dce8"],
+    "price": 52.03,
+    "inventory": [469]
+  },
+  {
+    "name": "Minimalist Sling",
+    "type": "Hiking Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/8988501/pexels-photo-8988501.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum",
+    "color": ["#e5d3dd", "#7882c0"],
+    "price": 141.1,
+    "inventory": [125, 350]
+  },
+  {
+    "name": "Cascade Trail",
+    "type": "Beach Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/7148386/pexels-photo-7148386.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum",
+    "color": ["#ffdd6c"],
+    "price": 73.9,
+    "inventory": [393]
+  },
+  {
+    "name": "Breeze Messenger",
+    "type": "Duffel Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/9391902/pexels-photo-9391902.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue",
+    "color": ["#b69fcc"],
+    "price": 79.58,
+    "inventory": [377]
+  },
+  {
+    "name": "Bold Horizons",
+    "type": "Backpack",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/12743405/pexels-photo-12743405.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque",
+    "color": ["#d0139b", "#5400fb", "#a43385", "#9e2d13"],
+    "price": 32.88,
+    "inventory": [204, 369, 468, 485]
+  },
+  {
+    "name": "Coastal Tote",
+    "type": "Hiking Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/7348926/pexels-photo-7348926.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat",
+    "color": ["#f10c8a", "#f68345", "#a50d5f", "#11f2ba"],
+    "price": 50.2,
+    "inventory": [456, 251, 194, 364]
+  },
+  {
+    "name": "Jetsetter Duffel",
+    "type": "Messenger Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/2393813/pexels-photo-2393813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed",
+    "color": ["#aa2e89", "#560855", "#cc10a5"],
+    "price": 82.97,
+    "inventory": [349, 159, 648]
+  },
+  {
+    "name": "Voyager’s Satchel",
+    "type": "Sling Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/10669656/pexels-photo-10669656.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt",
+    "color": ["#0bd584", "#b4d093", "#c8f3d0", "#01fe89", "#e462fd"],
+    "price": 122.19,
+    "inventory": [178, 136, 48, 166, 455]
+  },
+  {
+    "name": "Urban Utility",
+    "type": "Tote Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/1214212/pexels-photo-1214212.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis",
+    "color": ["#dc3e5f", "#53d7be", "#596e31", "#8ca8a2"],
+    "price": 81.55,
+    "inventory": [128, 456, 222, 135]
+  },
+  {
+    "name": "Classic Traveler",
+    "type": "Tote Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/26731021/pexels-photo-26731021/free-photo-of-top-view-of-flowers-apples-and-lipstick-in-bag-on-blanket.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi",
+    "color": ["#1ef9a8", "#a7caf2"],
+    "price": 82.44,
+    "inventory": [239, 394]
+  },
+  {
+    "name": "Zen Sling",
+    "type": "Backpack",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/11463449/pexels-photo-11463449.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras",
+    "color": ["#d1149d", "#e680c0", "#48e139", "#d20c88", "#c0a89b"],
+    "price": 120.48,
+    "inventory": [462, 468, 458, 654, 125]
+  },
+  {
+    "name": "Alpine Edge",
+    "type": "Satchel",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/13596383/pexels-photo-13596383.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit",
+    "color": ["#3c8f40", "#1a4da6", "#ae11d8", "#d776fe", "#c7cdeb"],
+    "price": 165.9,
+    "inventory": [390, 458, 123, 41, 36]
+  },
+  {
+    "name": "Avant Messenger",
+    "type": "Sling Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/7130030/pexels-photo-7130030.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu",
+    "color": ["#b8223e"],
+    "price": 132.99,
+    "inventory": [407]
+  },
+  {
+    "name": "Shoreline Tote",
+    "type": "Backpack",
+    "brand": "Prestige",
+    "image": "https://cdn.pixabay.com/photo/2024/08/18/22/02/ai-generated-8979021_960_720.png",
+    "description": "tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci",
+    "color": ["#a83fd5"],
+    "price": 147.51,
+    "inventory": [138]
+  },
+  {
+    "name": "Heritage Handbag",
+    "type": "Satchel",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/1374910/pexels-photo-1374910.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus",
+    "color": ["#41b90e"],
+    "price": 80.88,
+    "inventory": [309]
+  },
+  {
+    "name": "Stealth Pack",
+    "type": "Backpack",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/12446401/pexels-photo-12446401.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla",
+    "color": ["#5c9e31", "#b5aba7", "#b4f7fc", "#a15084"],
+    "price": 30.74,
+    "inventory": [223, 135, 158, 165]
+  },
+  {
+    "name": "Explorer Satchel",
+    "type": "Tote Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/12031038/pexels-photo-12031038.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
+    "color": ["#84977c", "#3932cc", "#1c25ff"],
+    "price": 167.66,
+    "inventory": [183, 136, 158]
+  },
+  {
+    "name": "Expeditioner Duffel",
+    "type": "Satchel",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/12811978/pexels-photo-12811978.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in",
+    "color": ["#03e0f5", "#b9a9ab", "#9055b7", "#f871c9", "#638c76"],
+    "price": 120.16,
+    "inventory": [249, 125, 166, 489, 99]
+  },
+  {
+    "name": "Urban Pioneer",
+    "type": "Hiking Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/7351020/pexels-photo-7351020.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate",
+    "color": ["#a41bb3", "#b38e43"],
+    "price": 135.46,
+    "inventory": [377, 266]
+  },
+  {
+    "name": "Velocity Sling",
+    "type": "Handbag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/3808229/pexels-photo-3808229.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend",
+    "color": ["#d11cd3", "#8c1825", "#31e4fc", "#8967c4", "#90cfeb"],
+    "price": 173.08,
+    "inventory": [237, 122, 156, 258, 64]
+  },
+  {
+    "name": "Peak Trekker",
+    "type": "Messenger Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/5090704/pexels-photo-5090704.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in",
+    "color": ["#644d8f"],
+    "price": 58.27,
+    "inventory": [151]
+  },
+  {
+    "name": "Skyline Tote",
+    "type": "Satchel",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/10834748/pexels-photo-10834748.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue",
+    "color": ["#6362d2", "#99c5e8", "#1ede26", "#553694"],
+    "price": 175.15,
+    "inventory": [185, 125, 168, 164]
+  },
+  {
+    "name": "Horizon Handbag",
+    "type": "Backpack",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/2766335/pexels-photo-2766335.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede",
+    "color": ["#fa6ca3"],
+    "price": 152.2,
+    "inventory": [314]
+  },
+  {
+    "name": "Weekend Wanderer",
+    "type": "Hiking Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/7351108/pexels-photo-7351108.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit",
+    "color": ["#47eeca"],
+    "price": 75.08,
+    "inventory": [306]
+  },
+  {
+    "name": "Nomad Explorer",
+    "type": "Hiking Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/6033793/pexels-photo-6033793.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam",
+    "color": ["#53ddc5"],
+    "price": 181.62,
+    "inventory": [281]
+  },
+  {
+    "name": "Coastal Satchel",
+    "type": "Satchel",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/1656/road-fashion-vintage-bag.jpg?auto=compress&cs=tinysrgb&w=600",
+    "description": "neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
+    "color": ["#e8867f", "#a0a3cb", "#f9cdc6"],
+    "price": 39.05,
+    "inventory": [391, 333, 156]
+  },
+  {
+    "name": "Ascend Duffel",
+    "type": "Duffel Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/27793087/pexels-photo-27793087/free-photo-of-red-bag-on-shelf.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse",
+    "color": ["#55bd1a", "#713b7d"],
+    "price": 192.86,
+    "inventory": [296, 125]
+  },
+  {
+    "name": "Zen Sling Pack",
+    "type": "Hiking Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/20559361/pexels-photo-20559361/free-photo-of-red-backpack-in-a-forest.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien",
+    "color": ["#7254ae", "#e1d50f", "#c0a676", "#fc89dc", "#0a7a29"],
+    "price": 157.28,
+    "inventory": [171, 171, 216, 165, 182]
+  },
+  {
+    "name": "Trailblazer Hiking",
+    "type": "Beach Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/9745332/pexels-photo-9745332.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus",
+    "color": ["#2a3d3d"],
+    "price": 137.11,
+    "inventory": [276]
+  },
+  {
+    "name": "Metro Crossbody",
+    "type": "Sling Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/14455779/pexels-photo-14455779.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula",
+    "color": ["#669b5e", "#2c46df"],
+    "price": 172.16,
+    "inventory": [462, 463]
+  },
+  {
+    "name": "Jetset Backpack",
+    "type": "Satchel",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non",
+    "color": ["#74b999", "#2329df"],
+    "price": 37.27,
+    "inventory": [446, 456]
+  },
+  {
+    "name": "Breeze Tote",
+    "type": "Duffel Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/13872590/pexels-photo-13872590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam",
+    "color": ["#788bc1", "#b7af47"],
+    "price": 191.1,
+    "inventory": [444, 364]
+  },
+  {
+    "name": "Explorer’s Duffel",
+    "type": "Satchel",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/14401879/pexels-photo-14401879.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor",
+    "color": ["#5f60af", "#5c33b1", "#f078f8"],
+    "price": 117.33,
+    "inventory": [201, 123, 189]
+  },
+  {
+    "name": "Luxe Satchel",
+    "type": "Duffel Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/9582656/pexels-photo-9582656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet",
+    "color": ["#076a52", "#dce899", "#28529a", "#65b658", "#995543"],
+    "price": 144.74,
+    "inventory": [338, 248, 236, 136, 294]
+  },
+  {
+    "name": "Trek Pro",
+    "type": "Messenger Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/11623262/pexels-photo-11623262.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo",
+    "color": ["#143103", "#325af3", "#ccfec3", "#cf03e1", "#996f62"],
+    "price": 44.06,
+    "inventory": [279, 294, 297, 284, 279]
+  },
+  {
+    "name": "Nomad Sling",
+    "type": "Sling Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/9267587/pexels-photo-9267587.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
+    "color": ["#4ad485", "#85170e", "#59ecef"],
+    "price": 40.47,
+    "inventory": [190, 139, 158]
+  },
+  {
+    "name": "Coastal Messenger",
+    "type": "Sling Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/9608480/pexels-photo-9608480.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut",
+    "color": ["#8ef576", "#ab5a7c", "#9d91f3", "#5da750"],
+    "price": 149.05,
+    "inventory": [244, 125, 356, 138]
+  },
+  {
+    "name": "Stealth Duffel",
+    "type": "Sling Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/7159408/pexels-photo-7159408.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
+    "color": ["#ff77f8", "#41cc54"],
+    "price": 110.52,
+    "inventory": [436, 546]
+  },
+  {
+    "name": "Urban Journey",
+    "type": "Hiking Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/18510444/pexels-photo-18510444/free-photo-of-olive-green-backpack-for-photographic-equipment.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra",
+    "color": ["#4763e6", "#6e190c", "#08d747", "#1624d2"],
+    "price": 192.87,
+    "inventory": [182, 126, 456, 139]
+  }
+]
