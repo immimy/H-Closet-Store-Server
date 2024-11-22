@@ -5,15 +5,14 @@ const express = require('express');
 const app = express();
 
 const connectDB = require('./db/connectDB');
+const featuredRouter = require('./routes/featured');
 
 // middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 // routes
-app.get('/', (req, res) => {
-  res.json({ msg: 'hello world' });
-});
+app.use('/api/v1/featured', featuredRouter);
 
 const port = process.env.PORT || 5000;
 const start = async () => {
