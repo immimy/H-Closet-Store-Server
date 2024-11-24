@@ -7,9 +7,12 @@ const app = express();
 const connectDB = require('./db/connectDB');
 const featuredRouter = require('./routes/featured');
 
+const cors = require('cors');
+
 // middleware
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+app.use(cors());
 
 // routes
 app.use('/api/v1/featured', featuredRouter);
