@@ -1,6 +1,558 @@
 [
   {
+    "name": "Urban Voyager",
+    "category": "bag",
+    "type": "Backpack",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/2905238/pexels-photo-2905238.jpeg",
+    "description": "ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam",
+    "color": ["#461fce", "#2b2d58", "#d332ca"],
+    "price": 178.15,
+    "inventory": [471, 350, 669]
+  },
+  {
+    "name": "Elite Messenger",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/13945428/pexels-photo-13945428.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at",
+    "color": ["#369082"],
+    "price": 135.76,
+    "inventory": [304]
+  },
+  {
+    "name": "Alpine Trek",
+    "category": "bag",
+    "type": "Backpack",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/934673/pexels-photo-934673.jpeg",
+    "description": "sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt",
+    "color": ["#445857", "#8e33c0"],
+    "price": 93.08,
+    "inventory": [433, 252]
+  },
+  {
+    "name": "City Commuter",
+    "category": "bag",
+    "type": "Messenger Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/10194236/pexels-photo-10194236.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan",
+    "color": ["#444ad3", "#46ee41", "#ff5aa6"],
+    "price": 112.03,
+    "inventory": [203, 303, 155]
+  },
+  {
+    "name": "Traveler’s Choice",
+    "category": "bag",
+    "type": "Backpack",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/27911168/pexels-photo-27911168/free-photo-of-bag.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis",
+    "color": ["#ccd10f"],
+    "price": 72.97,
+    "inventory": [336]
+  },
+  {
+    "name": "Serenity Satchel",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/10762576/pexels-photo-10762576.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi",
+    "color": ["#6b6507", "#86620a", "#5920ce", "#b26dcd", "#ec56d4"],
+    "price": 130.12,
+    "inventory": [233, 284, 269, 222, 200]
+  },
+  {
+    "name": "Midnight Sling",
+    "category": "bag",
+    "type": "Handbag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/1204464/pexels-photo-1204464.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor",
+    "color": ["#e82cf9", "#2a18c1", "#f4e816", "#2f292b"],
+    "price": 33.45,
+    "inventory": [355, 365, 348, 399]
+  },
+  {
+    "name": "Classic Wanderer",
+    "category": "bag",
+    "type": "Tote Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/1527004/pexels-photo-1527004.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum",
+    "color": ["#94aa66", "#a67ad9", "#8ed5dc", "#968d91", "#496bcb"],
+    "price": 191.31,
+    "inventory": [137, 100, 99, 54, 155]
+  },
+  {
+    "name": "Luxe Handbag",
+    "category": "bag",
+    "type": "Sling Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/904350/pexels-photo-904350.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit",
+    "color": ["#13fa59", "#d26e41"],
+    "price": 133.32,
+    "inventory": [442, 468]
+  },
+  {
+    "name": "Explorer Pack",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/10771804/pexels-photo-10771804.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut",
+    "color": ["#008958", "#d7f3da", "#ec8639", "#17b995", "#248feb"],
+    "price": 192.38,
+    "inventory": [101, 99, 98, 185, 206]
+  },
+  {
+    "name": "Downtown Tote",
+    "category": "bag",
+    "type": "Beach Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/8093148/pexels-photo-8093148.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis",
+    "color": ["#9b6db7", "#6758ee"],
+    "price": 65.64,
+    "inventory": [330, 369]
+  },
+  {
+    "name": "Expedition Duffel",
+    "category": "bag",
+    "type": "Satchel",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/17190703/pexels-photo-17190703/free-photo-of-woman-wearing-tote-bag-and-camera-on-her-shoulder.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet",
+    "color": ["#f1dce8"],
+    "price": 52.03,
+    "inventory": [469]
+  },
+  {
+    "name": "Minimalist Sling",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/8988501/pexels-photo-8988501.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum",
+    "color": ["#e5d3dd", "#7882c0"],
+    "price": 141.1,
+    "inventory": [125, 350]
+  },
+  {
+    "name": "Cascade Trail",
+    "category": "bag",
+    "type": "Beach Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/7148386/pexels-photo-7148386.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum",
+    "color": ["#ffdd6c"],
+    "price": 73.9,
+    "inventory": [393]
+  },
+  {
+    "name": "Breeze Messenger",
+    "category": "bag",
+    "type": "Duffel Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/9391902/pexels-photo-9391902.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue",
+    "color": ["#b69fcc"],
+    "price": 79.58,
+    "inventory": [377]
+  },
+  {
+    "name": "Bold Horizons",
+    "category": "bag",
+    "type": "Backpack",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/12743405/pexels-photo-12743405.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque",
+    "color": ["#d0139b", "#5400fb", "#a43385", "#9e2d13"],
+    "price": 32.88,
+    "inventory": [204, 369, 468, 485]
+  },
+  {
+    "name": "Coastal Tote",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/7348926/pexels-photo-7348926.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat",
+    "color": ["#f10c8a", "#f68345", "#a50d5f", "#11f2ba"],
+    "price": 50.2,
+    "inventory": [456, 251, 194, 364]
+  },
+  {
+    "name": "Jetsetter Duffel",
+    "category": "bag",
+    "type": "Messenger Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/2393813/pexels-photo-2393813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed",
+    "color": ["#aa2e89", "#560855", "#cc10a5"],
+    "price": 82.97,
+    "inventory": [349, 159, 648]
+  },
+  {
+    "name": "Voyager’s Satchel",
+    "category": "bag",
+    "type": "Sling Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/10669656/pexels-photo-10669656.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt",
+    "color": ["#0bd584", "#b4d093", "#c8f3d0", "#01fe89", "#e462fd"],
+    "price": 122.19,
+    "inventory": [178, 136, 48, 166, 455]
+  },
+  {
+    "name": "Urban Utility",
+    "category": "bag",
+    "type": "Tote Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/1214212/pexels-photo-1214212.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis",
+    "color": ["#dc3e5f", "#53d7be", "#596e31", "#8ca8a2"],
+    "price": 81.55,
+    "inventory": [128, 456, 222, 135]
+  },
+  {
+    "name": "Classic Traveler",
+    "category": "bag",
+    "type": "Tote Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/26731021/pexels-photo-26731021/free-photo-of-top-view-of-flowers-apples-and-lipstick-in-bag-on-blanket.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi",
+    "color": ["#1ef9a8", "#a7caf2"],
+    "price": 82.44,
+    "inventory": [239, 394]
+  },
+  {
+    "name": "Zen Sling",
+    "category": "bag",
+    "type": "Backpack",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/11463449/pexels-photo-11463449.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras",
+    "color": ["#d1149d", "#e680c0", "#48e139", "#d20c88", "#c0a89b"],
+    "price": 120.48,
+    "inventory": [462, 468, 458, 654, 125]
+  },
+  {
+    "name": "Alpine Edge",
+    "category": "bag",
+    "type": "Satchel",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/13596383/pexels-photo-13596383.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit",
+    "color": ["#3c8f40", "#1a4da6", "#ae11d8", "#d776fe", "#c7cdeb"],
+    "price": 165.9,
+    "inventory": [390, 458, 123, 41, 36]
+  },
+  {
+    "name": "Avant Messenger",
+    "category": "bag",
+    "type": "Sling Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/7130030/pexels-photo-7130030.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu",
+    "color": ["#b8223e"],
+    "price": 132.99,
+    "inventory": [407]
+  },
+  {
+    "name": "Shoreline Tote",
+    "category": "bag",
+    "type": "Backpack",
+    "brand": "Prestige",
+    "image": "https://cdn.pixabay.com/photo/2024/08/18/22/02/ai-generated-8979021_960_720.png",
+    "description": "tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci",
+    "color": ["#a83fd5"],
+    "price": 147.51,
+    "inventory": [138]
+  },
+  {
+    "name": "Heritage Handbag",
+    "category": "bag",
+    "type": "Satchel",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/1374910/pexels-photo-1374910.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus",
+    "color": ["#41b90e"],
+    "price": 80.88,
+    "inventory": [309]
+  },
+  {
+    "name": "Stealth Pack",
+    "category": "bag",
+    "type": "Backpack",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/12446401/pexels-photo-12446401.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla",
+    "color": ["#5c9e31", "#b5aba7", "#b4f7fc", "#a15084"],
+    "price": 30.74,
+    "inventory": [223, 135, 158, 165]
+  },
+  {
+    "name": "Explorer Satchel",
+    "category": "bag",
+    "type": "Tote Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/12031038/pexels-photo-12031038.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
+    "color": ["#84977c", "#3932cc", "#1c25ff"],
+    "price": 167.66,
+    "inventory": [183, 136, 158]
+  },
+  {
+    "name": "Expeditioner Duffel",
+    "category": "bag",
+    "type": "Satchel",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/12811978/pexels-photo-12811978.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in",
+    "color": ["#03e0f5", "#b9a9ab", "#9055b7", "#f871c9", "#638c76"],
+    "price": 120.16,
+    "inventory": [249, 125, 166, 489, 99]
+  },
+  {
+    "name": "Urban Pioneer",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/7351020/pexels-photo-7351020.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate",
+    "color": ["#a41bb3", "#b38e43"],
+    "price": 135.46,
+    "inventory": [377, 266]
+  },
+  {
+    "name": "Velocity Sling",
+    "category": "bag",
+    "type": "Handbag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/3808229/pexels-photo-3808229.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend",
+    "color": ["#d11cd3", "#8c1825", "#31e4fc", "#8967c4", "#90cfeb"],
+    "price": 173.08,
+    "inventory": [237, 122, 156, 258, 64]
+  },
+  {
+    "name": "Peak Trekker",
+    "category": "bag",
+    "type": "Messenger Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/5090704/pexels-photo-5090704.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in",
+    "color": ["#644d8f"],
+    "price": 58.27,
+    "inventory": [151]
+  },
+  {
+    "name": "Skyline Tote",
+    "category": "bag",
+    "type": "Satchel",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/10834748/pexels-photo-10834748.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue",
+    "color": ["#6362d2", "#99c5e8", "#1ede26", "#553694"],
+    "price": 175.15,
+    "inventory": [185, 125, 168, 164]
+  },
+  {
+    "name": "Horizon Handbag",
+    "category": "bag",
+    "type": "Backpack",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/2766335/pexels-photo-2766335.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede",
+    "color": ["#fa6ca3"],
+    "price": 152.2,
+    "inventory": [314]
+  },
+  {
+    "name": "Weekend Wanderer",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/7351108/pexels-photo-7351108.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit",
+    "color": ["#47eeca"],
+    "price": 75.08,
+    "inventory": [306]
+  },
+  {
+    "name": "Nomad Explorer",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/6033793/pexels-photo-6033793.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam",
+    "color": ["#53ddc5"],
+    "price": 181.62,
+    "inventory": [281]
+  },
+  {
+    "name": "Coastal Satchel",
+    "category": "bag",
+    "type": "Satchel",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/1656/road-fashion-vintage-bag.jpg?auto=compress&cs=tinysrgb&w=600",
+    "description": "neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at",
+    "color": ["#e8867f", "#a0a3cb", "#f9cdc6"],
+    "price": 39.05,
+    "inventory": [391, 333, 156]
+  },
+  {
+    "name": "Ascend Duffel",
+    "category": "bag",
+    "type": "Duffel Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/27793087/pexels-photo-27793087/free-photo-of-red-bag-on-shelf.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse",
+    "color": ["#55bd1a", "#713b7d"],
+    "price": 192.86,
+    "inventory": [296, 125]
+  },
+  {
+    "name": "Zen Sling Pack",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/20559361/pexels-photo-20559361/free-photo-of-red-backpack-in-a-forest.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien",
+    "color": ["#7254ae", "#e1d50f", "#c0a676", "#fc89dc", "#0a7a29"],
+    "price": 157.28,
+    "inventory": [171, 171, 216, 165, 182]
+  },
+  {
+    "name": "Trailblazer Hiking",
+    "category": "bag",
+    "type": "Beach Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/9745332/pexels-photo-9745332.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus",
+    "color": ["#2a3d3d"],
+    "price": 137.11,
+    "inventory": [276]
+  },
+  {
+    "name": "Metro Crossbody",
+    "category": "bag",
+    "type": "Sling Bag",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/14455779/pexels-photo-14455779.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula",
+    "color": ["#669b5e", "#2c46df"],
+    "price": 172.16,
+    "inventory": [462, 463]
+  },
+  {
+    "name": "Jetset Backpack",
+    "category": "bag",
+    "type": "Satchel",
+    "brand": "Wander Lux",
+    "image": "https://images.pexels.com/photos/1502216/pexels-photo-1502216.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non",
+    "color": ["#74b999", "#2329df"],
+    "price": 37.27,
+    "inventory": [446, 456]
+  },
+  {
+    "name": "Breeze Tote",
+    "category": "bag",
+    "type": "Duffel Bag",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/13872590/pexels-photo-13872590.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam",
+    "color": ["#788bc1", "#b7af47"],
+    "price": 191.1,
+    "inventory": [444, 364]
+  },
+  {
+    "name": "Explorer’s Duffel",
+    "category": "bag",
+    "type": "Satchel",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/14401879/pexels-photo-14401879.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor",
+    "color": ["#5f60af", "#5c33b1", "#f078f8"],
+    "price": 117.33,
+    "inventory": [201, 123, 189]
+  },
+  {
+    "name": "Luxe Satchel",
+    "category": "bag",
+    "type": "Duffel Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/9582656/pexels-photo-9582656.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet",
+    "color": ["#076a52", "#dce899", "#28529a", "#65b658", "#995543"],
+    "price": 144.74,
+    "inventory": [338, 248, 236, 136, 294]
+  },
+  {
+    "name": "Trek Pro",
+    "category": "bag",
+    "type": "Messenger Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/11623262/pexels-photo-11623262.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo",
+    "color": ["#143103", "#325af3", "#ccfec3", "#cf03e1", "#996f62"],
+    "price": 44.06,
+    "inventory": [279, 294, 297, 284, 279]
+  },
+  {
+    "name": "Nomad Sling",
+    "category": "bag",
+    "type": "Sling Bag",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/9267587/pexels-photo-9267587.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
+    "color": ["#4ad485", "#85170e", "#59ecef"],
+    "price": 40.47,
+    "inventory": [190, 139, 158]
+  },
+  {
+    "name": "Coastal Messenger",
+    "category": "bag",
+    "type": "Sling Bag",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/9608480/pexels-photo-9608480.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut",
+    "color": ["#8ef576", "#ab5a7c", "#9d91f3", "#5da750"],
+    "price": 149.05,
+    "inventory": [244, 125, 356, 138]
+  },
+  {
+    "name": "Stealth Duffel",
+    "category": "bag",
+    "type": "Sling Bag",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/7159408/pexels-photo-7159408.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam",
+    "color": ["#ff77f8", "#41cc54"],
+    "price": 110.52,
+    "inventory": [436, 546]
+  },
+  {
+    "name": "Urban Journey",
+    "category": "bag",
+    "type": "Hiking Bag",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/18510444/pexels-photo-18510444/free-photo-of-olive-green-backpack-for-photographic-equipment.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra",
+    "color": ["#4763e6", "#6e190c", "#08d747", "#1624d2"],
+    "price": 192.87,
+    "inventory": [182, 126, 456, 139]
+  },
+
+  {
     "name": "Classic Cotton Tee",
+    "category": "clothes",
     "type": "T-shirt",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/996329/pexels-photo-996329.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -11,6 +563,7 @@
   },
   {
     "name": "Denim Jacket",
+    "category": "clothes",
     "type": "Jacket",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -21,6 +574,7 @@
   },
   {
     "name": "Striped Button Shirt",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/297933/pexels-photo-297933.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -31,6 +585,7 @@
   },
   {
     "name": "Floral Wrap Dress",
+    "category": "clothes",
     "type": "Dress",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/985635/pexels-photo-985635.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -41,6 +596,7 @@
   },
   {
     "name": "Ribbed Knit Cardigan",
+    "category": "clothes",
     "type": "Cardigan",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/13431671/pexels-photo-13431671.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -51,6 +607,7 @@
   },
   {
     "name": "High-waisted Skinny",
+    "category": "clothes",
     "type": "Pants",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -61,6 +618,7 @@
   },
   {
     "name": "Pleated Midi Skirt",
+    "category": "clothes",
     "type": "Skirt",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/601316/pexels-photo-601316.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -71,6 +629,7 @@
   },
   {
     "name": "Cargo Utility Shorts",
+    "category": "clothes",
     "type": "Shorts",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/69101/pexels-photo-69101.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -81,6 +640,7 @@
   },
   {
     "name": "V-neck Blouse",
+    "category": "clothes",
     "type": "Blouse",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/16689779/pexels-photo-16689779/free-photo-of-woman-with-necklace.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -91,6 +651,7 @@
   },
   {
     "name": "Hooded Puffer Jacket",
+    "category": "clothes",
     "type": "Jacket",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/1476055/pexels-photo-1476055.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -101,6 +662,7 @@
   },
   {
     "name": "Scoop Neck Tee",
+    "category": "clothes",
     "type": "T-shirt",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/581087/pexels-photo-581087.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -111,6 +673,7 @@
   },
   {
     "name": "Wide-leg Trousers",
+    "category": "clothes",
     "type": "Pants",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/1082529/pexels-photo-1082529.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -121,6 +684,7 @@
   },
   {
     "name": "Belted A-line Dress",
+    "category": "clothes",
     "type": "Dress",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/2235071/pexels-photo-2235071.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -131,6 +695,7 @@
   },
   {
     "name": "Cropped Denim Jacket",
+    "category": "clothes",
     "type": "Jacket",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/179909/pexels-photo-179909.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -141,6 +706,7 @@
   },
   {
     "name": "Casual Button-down",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/264726/pexels-photo-264726.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -151,6 +717,7 @@
   },
   {
     "name": "Lightweight Cardigan",
+    "category": "clothes",
     "type": "Cardigan",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/10647943/pexels-photo-10647943.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -161,6 +728,7 @@
   },
   {
     "name": "Floral Maxi Skirt",
+    "category": "clothes",
     "type": "Skirt",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/1488507/pexels-photo-1488507.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -171,6 +739,7 @@
   },
   {
     "name": "Chino Shorts",
+    "category": "clothes",
     "type": "Shorts",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/15658071/pexels-photo-15658071/free-photo-of-back-view-of-a-woman-walking-between-flowers-on-the-shore.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -181,6 +750,7 @@
   },
   {
     "name": "Satin Wrap Dress",
+    "category": "clothes",
     "type": "Dress",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/2065195/pexels-photo-2065195.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -191,6 +761,7 @@
   },
   {
     "name": "Plaid Shirt",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/128878/the-last-shirt-dollar-bill-20-euro-folded-128878.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -201,6 +772,7 @@
   },
   {
     "name": "Sleeveless Tee",
+    "category": "clothes",
     "type": "T-shirt",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/2112648/pexels-photo-2112648.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -211,6 +783,7 @@
   },
   {
     "name": "Relaxed Fit Pants",
+    "category": "clothes",
     "type": "Pants",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/52518/jeans-pants-blue-shop-52518.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -221,6 +794,7 @@
   },
   {
     "name": "Tie-front Blouse",
+    "category": "clothes",
     "type": "Blouse",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/15645109/pexels-photo-15645109/free-photo-of-high-angle-photo-of-a-woman-standing-on-the-rocks-by-the-sea.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -231,6 +805,7 @@
   },
   {
     "name": "Double-breasted Blazer",
+    "category": "clothes",
     "type": "Jacket",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/22711478/pexels-photo-22711478/free-photo-of-elegant-woman-holding-a-laptop.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -241,6 +816,7 @@
   },
   {
     "name": "Crew Neck Sweater",
+    "category": "clothes",
     "type": "Jumper",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/7083880/pexels-photo-7083880.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -251,6 +827,7 @@
   },
   {
     "name": "Knitted Cardigan",
+    "category": "clothes",
     "type": "Cardigan",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/11274836/pexels-photo-11274836.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -261,6 +838,7 @@
   },
   {
     "name": "Linen A-line Skirt",
+    "category": "clothes",
     "type": "Skirt",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/1427984/pexels-photo-1427984.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -271,6 +849,7 @@
   },
   {
     "name": "Tailored Chino Pants",
+    "category": "clothes",
     "type": "Pants",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/1082526/pexels-photo-1082526.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -281,6 +860,7 @@
   },
   {
     "name": "Printed Short Sleeve",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/46212/men-s-shirt-shirt-attire-clothing-46212.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -291,6 +871,7 @@
   },
   {
     "name": "Faux Leather Biker",
+    "category": "clothes",
     "type": "Jacket",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/157675/fashion-men-s-individuality-black-and-white-157675.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -301,6 +882,7 @@
   },
   {
     "name": "Relaxed Fit Shorts",
+    "category": "clothes",
     "type": "Shorts",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/13449612/pexels-photo-13449612.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -311,6 +893,7 @@
   },
   {
     "name": "Empire Waist Dress",
+    "category": "clothes",
     "type": "Dress",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/1566435/pexels-photo-1566435.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -321,6 +904,7 @@
   },
   {
     "name": "Lace Panel Blouse",
+    "category": "clothes",
     "type": "Blouse",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/12308956/pexels-photo-12308956.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -331,6 +915,7 @@
   },
   {
     "name": "Bomber Jacket",
+    "category": "clothes",
     "type": "Jacket",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/1457983/pexels-photo-1457983.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -341,6 +926,7 @@
   },
   {
     "name": "Henley Shirt",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/8075948/pexels-photo-8075948.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -351,6 +937,7 @@
   },
   {
     "name": "Crop T-shirt",
+    "category": "clothes",
     "type": "T-shirt",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/2112651/pexels-photo-2112651.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -361,6 +948,7 @@
   },
   {
     "name": "Straight-leg Pants",
+    "category": "clothes",
     "type": "Pants",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/934070/pexels-photo-934070.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -371,6 +959,7 @@
   },
   {
     "name": "Ruffle Hem Skirt",
+    "category": "clothes",
     "type": "Skirt",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/932401/pexels-photo-932401.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -381,6 +970,7 @@
   },
   {
     "name": "Puffer Jacket",
+    "category": "clothes",
     "type": "Jacket",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/2569819/pexels-photo-2569819.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -391,6 +981,7 @@
   },
   {
     "name": "Button-up Shirt",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/7671168/pexels-photo-7671168.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -401,6 +992,7 @@
   },
   {
     "name": "Belted Cardigan",
+    "category": "clothes",
     "type": "Cardigan",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/9832687/pexels-photo-9832687.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -411,6 +1003,7 @@
   },
   {
     "name": "Paperbag Waist Pants",
+    "category": "clothes",
     "type": "Pants",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/1210484/pexels-photo-1210484.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -421,6 +1014,7 @@
   },
   {
     "name": "Embroidered Blouse",
+    "category": "clothes",
     "type": "Blouse",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/12625864/pexels-photo-12625864.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -431,6 +1025,7 @@
   },
   {
     "name": "Ruffle Sleeve Dress",
+    "category": "clothes",
     "type": "Dress",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/2235073/pexels-photo-2235073.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -441,6 +1036,7 @@
   },
   {
     "name": "Raw Hem Denim Shorts",
+    "category": "clothes",
     "type": "Shorts",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/12886863/pexels-photo-12886863.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -451,6 +1047,7 @@
   },
   {
     "name": "Tunic Cardigan",
+    "category": "clothes",
     "type": "Cardigan",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/9603628/pexels-photo-9603628.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -461,6 +1058,7 @@
   },
   {
     "name": "Strappy Summer Dress",
+    "category": "clothes",
     "type": "Dress",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/792772/pexels-photo-792772.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -471,6 +1069,7 @@
   },
   {
     "name": "Chambray Shirt",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/6347552/pexels-photo-6347552.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -481,6 +1080,7 @@
   },
   {
     "name": "Twill Cargo Pants",
+    "category": "clothes",
     "type": "Pants",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/1235692/pexels-photo-1235692.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -491,6 +1091,7 @@
   },
   {
     "name": "Boxy T-shirt",
+    "category": "clothes",
     "type": "T-shirt",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/2294342/pexels-photo-2294342.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -501,6 +1102,7 @@
   },
   {
     "name": "Puff Sleeve Blouse",
+    "category": "clothes",
     "type": "Blouse",
     "brand": "Legacy Trek",
     "image": "https://images.pexels.com/photos/11432378/pexels-photo-11432378.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -511,6 +1113,7 @@
   },
   {
     "name": "Silk Midi Skirt",
+    "category": "clothes",
     "type": "Skirt",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/297367/pexels-photo-297367.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -521,6 +1124,7 @@
   },
   {
     "name": "Tailored Shorts",
+    "category": "clothes",
     "type": "Shorts",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/12108713/pexels-photo-12108713.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -531,6 +1135,7 @@
   },
   {
     "name": "Oversized Jumper",
+    "category": "clothes",
     "type": "Jumper",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/6995880/pexels-photo-6995880.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -541,6 +1146,7 @@
   },
   {
     "name": "Wool Coat",
+    "category": "clothes",
     "type": "Jacket",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/792325/pexels-photo-792325.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -551,6 +1157,7 @@
   },
   {
     "name": "Classic Dress Shirt",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/6347931/pexels-photo-6347931.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -561,6 +1168,7 @@
   },
   {
     "name": "Relaxed Fit Skirt",
+    "category": "clothes",
     "type": "Skirt",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/2524961/pexels-photo-2524961.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -571,6 +1179,7 @@
   },
   {
     "name": "Cropped Cardigan",
+    "category": "clothes",
     "type": "Cardigan",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/9991099/pexels-photo-9991099.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -581,6 +1190,7 @@
   },
   {
     "name": "Slim Fit Trousers",
+    "category": "clothes",
     "type": "Pants",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/26076625/pexels-photo-26076625/free-photo-of-man-in-white-t-shirt-walking-and-carrying-skateboard.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -591,6 +1201,7 @@
   },
   {
     "name": "Flannel Shirt",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/4641824/pexels-photo-4641824.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -601,6 +1212,7 @@
   },
   {
     "name": "Graphic T-shirt",
+    "category": "clothes",
     "type": "T-shirt",
     "brand": "Wander Lux",
     "image": "https://images.pexels.com/photos/5995818/pexels-photo-5995818.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -611,6 +1223,7 @@
   },
   {
     "name": "Suede Jacket",
+    "category": "clothes",
     "type": "Jacket",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/27361967/pexels-photo-27361967/free-photo-of-a-jacket-boots-and-a-backpack-lying-on-the-ground.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -621,6 +1234,7 @@
   },
   {
     "name": "Button-up Blouse",
+    "category": "clothes",
     "type": "Blouse",
     "brand": "Calista",
     "image": "https://images.pexels.com/photos/11044912/pexels-photo-11044912.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -631,6 +1245,7 @@
   },
   {
     "name": "Floral Summer Dress",
+    "category": "clothes",
     "type": "Dress",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/413707/pexels-photo-413707.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -641,6 +1256,7 @@
   },
   {
     "name": "Khaki Bermuda Shorts",
+    "category": "clothes",
     "type": "Shorts",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/10577251/pexels-photo-10577251.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -651,6 +1267,7 @@
   },
   {
     "name": "Oversized Shirt",
+    "category": "clothes",
     "type": "Shirt",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/16460760/pexels-photo-16460760/free-photo-of-clothes-rack-by-mirror.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -661,6 +1278,7 @@
   },
   {
     "name": "Tailored Dress Pants",
+    "category": "clothes",
     "type": "Pants",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/17905220/pexels-photo-17905220/free-photo-of-woman-wearing-white-pants.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -671,6 +1289,7 @@
   },
   {
     "name": "Chunky Knit Jumper",
+    "category": "clothes",
     "type": "Jumper",
     "brand": "Prestige",
     "image": "https://images.pexels.com/photos/5704187/pexels-photo-5704187.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -681,6 +1300,7 @@
   },
   {
     "name": "Satin Slip Dress",
+    "category": "clothes",
     "type": "Dress",
     "brand": "Free Spirit",
     "image": "https://images.pexels.com/photos/1721944/pexels-photo-1721944.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -691,6 +1311,7 @@
   },
   {
     "name": "Classic Cotton Tee",
+    "category": "clothes",
     "type": "T-shirt",
     "brand": "Aero Style",
     "image": "https://images.pexels.com/photos/6347892/pexels-photo-6347892.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -698,5 +1319,405 @@
     "size": ["xs", "s", "m", "l", "xl"],
     "price": 57.97,
     "inventory": [460, 112, 347, 280, 417]
+  },
+  {
+    "name": "Woolen Knit Scarf",
+    "category": "accessory",
+    "type": "Scarf",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/375880/pexels-photo-375880.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+    "price": 21.93,
+    "inventory": [143]
+  },
+  {
+    "name": "Ribbed Beanie",
+    "category": "accessory",
+    "type": "Hat",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/2119500/pexels-photo-2119500.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+    "price": 48.81,
+    "inventory": [195]
+  },
+  {
+    "name": "Silk Handkerchief",
+    "category": "accessory",
+    "type": "Handkerchief",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/12886981/pexels-photo-12886981.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
+    "price": 32.97,
+    "inventory": [243]
+  },
+  {
+    "name": "Leather Driving Gloves",
+    "category": "accessory",
+    "type": "Gloves",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/45057/pexels-photo-45057.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
+    "price": 19.76,
+    "inventory": [163]
+  },
+  {
+    "name": "Cashmere Socks",
+    "category": "accessory",
+    "type": "Socks",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/1921252/pexels-photo-1921252.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
+    "price": 9.42,
+    "inventory": [143]
+  },
+  {
+    "name": "Chunky Knit Hat",
+    "category": "accessory",
+    "type": "Hat",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/984619/pexels-photo-984619.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
+    "price": 21.29,
+    "inventory": [131]
+  },
+  {
+    "name": "Satin Pocket Square",
+    "category": "accessory",
+    "type": "Handkerchief",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/19504696/pexels-photo-19504696/free-photo-of-hands-of-a-bride-clutching-a-handkerchief.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
+    "price": 22.82,
+    "inventory": [150]
+  },
+  {
+    "name": "Fleece-lined Gloves",
+    "category": "accessory",
+    "type": "Gloves",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/23516533/pexels-photo-23516533/free-photo-of-blonde-with-a-wreath-on-her-head-covering-her-face-with-a-hand-fan.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+    "price": 15.15,
+    "inventory": [198]
+  },
+  {
+    "name": "Striped Ankle Socks",
+    "category": "accessory",
+    "type": "Socks",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/1001457/pexels-photo-1001457.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
+    "price": 40.95,
+    "inventory": [177]
+  },
+  {
+    "name": "Plaid Wool Scarf",
+    "category": "accessory",
+    "type": "Scarf",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/287223/pexels-photo-287223.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
+    "price": 41.44,
+    "inventory": [172]
+  },
+  {
+    "name": "Cable Knit Beanie",
+    "category": "accessory",
+    "type": "Hat",
+    "brand": "Legacy Trek",
+    "image": "https://images.pexels.com/photos/20367763/pexels-photo-20367763/free-photo-of-young-woman-in-a-brown-coat-and-yellow-hat-standing-outside.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
+    "price": 35.93,
+    "inventory": [198]
+  },
+  {
+    "name": "Printed Silk Scarf",
+    "category": "accessory",
+    "type": "Scarf",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/883435/pexels-photo-883435.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
+    "price": 27.22,
+    "inventory": [137]
+  },
+  {
+    "name": "Thermal Wool Gloves",
+    "category": "accessory",
+    "type": "Gloves",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/54200/pexels-photo-54200.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
+    "price": 40.17,
+    "inventory": [215]
+  },
+  {
+    "name": "Polka Dot Handkerchief",
+    "category": "accessory",
+    "type": "Handkerchief",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/18085379/pexels-photo-18085379/free-photo-of-sitting-woman-in-handkerchief.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.",
+    "price": 5.43,
+    "inventory": [219]
+  },
+  {
+    "name": "Merino Wool Socks",
+    "category": "accessory",
+    "type": "Socks",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/236699/pexels-photo-236699.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+    "price": 11.1,
+    "inventory": [151]
+  },
+  {
+    "name": "Pom Pom Beanie",
+    "category": "accessory",
+    "type": "Hat",
+    "brand": "Prestige",
+    "image": "https://images.pexels.com/photos/15739581/pexels-photo-15739581/free-photo-of-smiling-boy-sitting-on-the-floor-with-a-crayon.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
+    "price": 15.87,
+    "inventory": [152]
+  },
+  {
+    "name": "Paisley Handkerchief",
+    "category": "accessory",
+    "type": "Handkerchief",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/9404758/pexels-photo-9404758.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
+    "price": 42.0,
+    "inventory": [114]
+  },
+  {
+    "name": "Faux Leather Gloves",
+    "category": "accessory",
+    "type": "Gloves",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/25276724/pexels-photo-25276724/free-photo-of-portrait-of-woman-in-black-and-white.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": 23.68,
+    "inventory": [122]
+  },
+  {
+    "name": "Striped Wool Socks",
+    "category": "accessory",
+    "type": "Socks",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/160438/ankle-socks-children-socks-knitted-greeting-160438.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+    "price": 28.3,
+    "inventory": [176]
+  },
+  {
+    "name": "Classic Fedora Hat",
+    "category": "accessory",
+    "type": "Hat",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/458649/pexels-photo-458649.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
+    "price": 15.47,
+    "inventory": [241]
+  },
+  {
+    "name": "Geometric Print Scarf",
+    "category": "accessory",
+    "type": "Scarf",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/2120584/pexels-photo-2120584.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.",
+    "price": 29.24,
+    "inventory": [166]
+  },
+  {
+    "name": "Knitted Mittens",
+    "category": "accessory",
+    "type": "Gloves",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/6615665/pexels-photo-6615665.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+    "price": 37.07,
+    "inventory": [205]
+  },
+  {
+    "name": "Floral Silk Handkerchief",
+    "category": "accessory",
+    "type": "Handkerchief",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/9404756/pexels-photo-9404756.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
+    "price": 40.29,
+    "inventory": [124]
+  },
+  {
+    "name": "Color Block Socks",
+    "category": "accessory",
+    "type": "Socks",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/218763/pexels-photo-218763.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
+    "price": 7.16,
+    "inventory": [200]
+  },
+  {
+    "name": "Wide-brim Wool Hat",
+    "category": "accessory",
+    "type": "Hat",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/15759281/pexels-photo-15759281/free-photo-of-beautiful-woman-with-christmas-tree-on-winter-day.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+    "price": 11.93,
+    "inventory": [247]
+  },
+  {
+    "name": "Lightweight Infinity Scarf",
+    "category": "accessory",
+    "type": "Scarf",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/3241748/pexels-photo-3241748.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
+    "price": 20.57,
+    "inventory": [167]
+  },
+  {
+    "name": "Fingerless Gloves",
+    "category": "accessory",
+    "type": "Gloves",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/23947626/pexels-photo-23947626/free-photo-of-woman-hands-in-gloves-holding-cup-of-tea.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",
+    "price": 20.73,
+    "inventory": [106]
+  },
+  {
+    "name": "Classic Cotton Socks",
+    "category": "accessory",
+    "type": "Socks",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/381865/pexels-photo-381865.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "price": 10.45,
+    "inventory": [108]
+  },
+  {
+    "name": "Striped Fedora",
+    "category": "accessory",
+    "type": "Hat",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/601168/pexels-photo-601168.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
+    "price": 17.56,
+    "inventory": [160]
+  },
+  {
+    "name": "Linen Handkerchief",
+    "category": "accessory",
+    "type": "Handkerchief",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/9404726/pexels-photo-9404726.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
+    "price": 22.64,
+    "inventory": [238]
+  },
+  {
+    "name": "Tech Fleece Gloves",
+    "category": "accessory",
+    "type": "Gloves",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/20485642/pexels-photo-20485642/free-photo-of-bride-holding-a-bouquet-of-flowers.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.",
+    "price": 18.23,
+    "inventory": [225]
+  },
+  {
+    "name": "Ribbed Wool Scarf",
+    "category": "accessory",
+    "type": "Scarf",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/247078/pexels-photo-247078.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
+    "price": 35.43,
+    "inventory": [158]
+  },
+  {
+    "name": "Cozy Knit Socks",
+    "category": "accessory",
+    "type": "Socks",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/1703492/pexels-photo-1703492.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
+    "price": 49.57,
+    "inventory": [237]
+  },
+  {
+    "name": "Patterned Bandana",
+    "category": "accessory",
+    "type": "Handkerchief",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/9404728/pexels-photo-9404728.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
+    "price": 48.48,
+    "inventory": [140]
+  },
+  {
+    "name": "Straw Sun Hat",
+    "category": "accessory",
+    "type": "Hat",
+    "brand": "Free Spirit",
+    "image": "https://images.pexels.com/photos/279647/pexels-photo-279647.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
+    "price": 42.41,
+    "inventory": [140]
+  },
+  {
+    "name": "Soft Wool Gloves",
+    "category": "accessory",
+    "type": "Gloves",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/27869758/pexels-photo-27869758/free-photo-of-woman-wearing-black-velvet-gloves-touching-face.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+    "price": 37.93,
+    "inventory": [204]
+  },
+  {
+    "name": "Plaid Blanket Scarf",
+    "category": "accessory",
+    "type": "Scarf",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/1619801/pexels-photo-1619801.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+    "price": 42.5,
+    "inventory": [206]
+  },
+  {
+    "name": "Solid Color Socks",
+    "category": "accessory",
+    "type": "Socks",
+    "brand": "Aero Style",
+    "image": "https://images.pexels.com/photos/4231477/pexels-photo-4231477.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
+    "price": 23.32,
+    "inventory": [212]
+  },
+  {
+    "name": "Wool Fedora",
+    "category": "accessory",
+    "type": "Hat",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/3681653/pexels-photo-3681653.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+    "price": 36.95,
+    "inventory": [163]
+  },
+  {
+    "name": "Silk Embroidered Scarf",
+    "category": "accessory",
+    "type": "Scarf",
+    "brand": "Calista",
+    "image": "https://images.pexels.com/photos/27394839/pexels-photo-27394839/free-photo-of-a-woman-posing-in-a-field.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
+    "price": 23.96,
+    "inventory": [237]
   }
 ]

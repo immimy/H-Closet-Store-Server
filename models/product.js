@@ -1,12 +1,22 @@
 const mongoose = require('mongoose');
+const { isRequiredWhen } = require('../utilities/validator');
 
-const BagSchema = new mongoose.Schema(
+const ProductSchema = new mongoose.Schema(
   {
     name: {
       type: String,
       required: [true, 'product name must be provided'],
       trim: true,
-      maxLength: [30, 'product name can not be more than 30 characters'],
+      maxLength: [50, 'product name can not be more than 50 characters'],
+    },
+    category: {
+      type: String,
+      required: [true, 'product category must be provided'],
+      trim: true,
+      enum: {
+        values: ['bag', 'clothes', 'accessory'],
+        message: '{VALUE} is not supported',
+      },
     },
     type: {
       type: String,
@@ -38,8 +48,19 @@ const BagSchema = new mongoose.Schema(
     },
     color: {
       type: [String],
-      required: [true, 'product color must be provided'],
-      default: undefined,
+      default: null,
+      validate: isRequiredWhen({
+        condition: (doc) => doc.category === 'bag',
+        field: 'color',
+      }),
+    },
+    size: {
+      type: [String],
+      default: null,
+      validate: isRequiredWhen({
+        condition: (doc) => doc.category === 'clothes',
+        field: 'size',
+      }),
     },
     price: {
       type: Number,
@@ -50,8 +71,12 @@ const BagSchema = new mongoose.Schema(
       required: [true, 'product inventory must be provided'],
       default: undefined,
     },
+    featured: {
+      type: Boolean,
+      default: false,
+    },
   },
   { timestamps: true }
 );
 
-module.exports = mongoose.model('Bag', BagSchema);
+module.exports = mongoose.model('Product', ProductSchema);

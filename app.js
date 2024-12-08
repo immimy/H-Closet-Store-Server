@@ -5,7 +5,7 @@ const express = require('express');
 const app = express();
 
 const connectDB = require('./db/connectDB');
-const featuredRouter = require('./routes/featured');
+const productsRouter = require('./routes/products');
 
 const cors = require('cors');
 
@@ -15,7 +15,9 @@ app.use(express.json());
 app.use(cors());
 
 // routes
-app.use('/api/v1/featured', featuredRouter);
+app.use('/api/v1/products', productsRouter);
+
+// error handler
 
 const port = process.env.PORT || 5000;
 const start = async () => {
