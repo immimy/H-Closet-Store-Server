@@ -1,3 +1,4 @@
+const { StatusCodes } = require('http-status-codes');
 const Product = require('../models/product');
 
 const selectFields = '_id name type brand image price';
@@ -53,15 +54,20 @@ const getAllProducts = async (req, res) => {
     pagination: {
       totalProduct,
       currentPage: page,
-      totalPage: Math.ceil(totalProduct / limit),
+      totalPage: Math.ceil(totalProduct / limit) || 1,
     },
   };
   const data = { productCount: products.length, products };
 
-  res.status(200).json({ meta, data });
+  res.status(StatusCodes.OK).json({ meta, data });
 };
 
-const getSingleProduct = async (req, res) => {};
+const getSingleProduct = async (req, res) => {
+  const { id: productId } = req.params;
+  const product = await Product.findById(productId);
+  res.status(StatusCodes.OK).json({ data: { product } });
+};
+
 const createProduct = async (req, res) => {};
 const updateProduct = async (req, res) => {};
 const deleteProduct = async (req, res) => {};
