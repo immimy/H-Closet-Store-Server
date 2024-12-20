@@ -4,21 +4,26 @@ require('express-async-errors');
 // express
 const express = require('express');
 const app = express();
-
+// rest of the packages
+const cookieParser = require('cookie-parser');
+const cors = require('cors');
+// database
 const connectDB = require('./db/connectDB');
+// routers
+const authRouter = require('./routes/auth');
+const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
 // middleware
 const notFoundMiddleware = require('./middleware/notFound');
 const errorsHandlerMiddleware = require('./middleware/errorHandler');
 
-const cors = require('cors');
-
-// middleware
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
 app.use(cors());
 
-// routes
+app.use(cookieParser(process.env.JWT_SECRET));
+app.use(express.json());
+
+app.use('/api/v1/auth', authRouter);
+app.use('/api/v1/users', usersRouter);
 app.use('/api/v1/products', productsRouter);
 
 app.use(notFoundMiddleware);
