@@ -7,6 +7,6 @@ const authenticationMiddleware = require('../middleware/authentication');
 router.post('/register', register);
 router.get('/verify', verifyEmail);
 router.post('/login', login);
-router.get('/logout', [authenticationMiddleware, logout]);
+router.get('/logout', logout);
 
 module.exports = router;

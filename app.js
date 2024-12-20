@@ -17,7 +17,11 @@ const productsRouter = require('./routes/products');
 const notFoundMiddleware = require('./middleware/notFound');
 const errorsHandlerMiddleware = require('./middleware/errorHandler');
 
-app.use(cors());
+// Due to cookies are available only on the same domain,
+// set up the origin and credentials options
+// to only allows cross-site requests from our front-end
+// and properly send back cookies to the frond-end site.
+app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
 
 app.use(cookieParser(process.env.JWT_SECRET));
 app.use(express.json());
