@@ -102,9 +102,29 @@ const sendVerificationEmail = ({
     html: `
     <h1>Verify your account</h1>
     <p>Hi ${capitalizeFirstLetter(username)}</p>
-    <p>You're almost set to start shopping on our site. Simply click the link to <a href='${origin}/auth/verify?email=${email}&token=${verificationToken}'>VERIFY YOUR ACCOUNT</a> and get started. The link expires in ${tokenLifetime} minutes.</p>
+    <p>You're almost set to start shopping on our site. Simply click the link to <a href='${origin}/user/verify-account?email=${email}&token=${verificationToken}'>VERIFY YOUR ACCOUNT</a> and get started. The link expires in ${tokenLifetime} minutes.</p>
     `,
   });
 };
 
-module.exports = { sendVerificationEmail };
+const sendResetPasswordEmail = ({
+  username,
+  email,
+  passwordToken,
+  tokenLifetime,
+  origin,
+}) => {
+  return sendEtherealMail({
+    senderName: 'H.Closet Store Admin',
+    recipientName: capitalizeFirstLetter(username),
+    recipientEmail: email,
+    subject: 'Reset your password on the H.closet store account',
+    html: `
+    <h1>Reset your password</h1>
+    <p>Hi ${capitalizeFirstLetter(username)}</p>
+    <p>We received a request to reset the password for your account. To reset your password, click on the link <a href='${origin}/user/reset-password?email=${email}&token=${passwordToken}'>RESET PASSWORD</a>. The link expires in ${tokenLifetime} minutes.</p>
+    `,
+  });
+};
+
+module.exports = { sendVerificationEmail, sendResetPasswordEmail };

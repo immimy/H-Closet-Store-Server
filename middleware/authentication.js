@@ -2,7 +2,7 @@ const CustomError = require('../errors');
 const { isTokenValid } = require('../utilities/jwt');
 
 // User authenticates to access the resource.
-const authenticationMiddleware = (req, res, next) => {
+const authenticateUser = (req, res, next) => {
   const { token } = req.signedCookies;
 
   // check if cookies expire
@@ -20,4 +20,4 @@ const authenticationMiddleware = (req, res, next) => {
   }
 };
 
-module.exports = authenticationMiddleware;
+module.exports = { authenticateUser };

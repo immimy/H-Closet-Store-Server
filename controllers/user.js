@@ -6,7 +6,7 @@ const getAllUsers = async (req, res) => {
   res.status(StatusCodes.OK).json({ userCount: users.length, users });
 };
 
-const showMe = async (req, res) => {
+const showCurrentUser = async (req, res) => {
   const { id } = req.user;
   const user = await User.findById(id).select('-password');
   res.status(StatusCodes.OK).json({ user });
@@ -20,6 +20,6 @@ const deleteAllUsers = async (req, res) => {
 
 module.exports = {
   getAllUsers,
-  showMe,
+  showCurrentUser,
   deleteAllUsers,
 };

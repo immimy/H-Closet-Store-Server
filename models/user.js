@@ -6,24 +6,24 @@ const UserSchema = new mongoose.Schema(
   {
     username: {
       type: String,
-      required: [true, 'please provide a username'],
+      required: [true, 'Please provide a username.'],
       unique: true,
-      minLength: [3, 'username must not be less than 3 characters'],
-      maxLength: [30, 'username must not be more than 30 characters'],
+      minLength: [3, 'Username must not be less than 3 characters.'],
+      maxLength: [30, 'Username must not be more than 30 characters.'],
     },
     email: {
       type: String,
-      required: [true, 'please provide an email'],
+      required: [true, 'Please provide an email.'],
       unique: true,
       validate: {
         validator: validator.isEmail,
-        message: 'please provide a valid email',
+        message: 'Please provide a valid email.',
       },
     },
     password: {
       type: String,
-      required: [true, 'please provide a password'],
-      minLength: [6, 'password must not be less than 6 characters'],
+      required: [true, 'Please provide a password.'],
+      minLength: [6, 'Password must not be less than 6 characters.'],
     },
     role: {
       type: String,
@@ -40,6 +40,8 @@ const UserSchema = new mongoose.Schema(
     },
     verificationToken: String,
     verificationTokenExpirationDate: Date,
+    passwordToken: String,
+    passwordTokenExpirationDate: Date,
   },
   { timestamps: true }
 );
