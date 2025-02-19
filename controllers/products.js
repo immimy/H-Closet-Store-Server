@@ -1,7 +1,5 @@
 const { StatusCodes } = require('http-status-codes');
-const Product = require('../models/product');
-
-const selectFields = '_id name type brand image price';
+const Product = require('../models/Product');
 
 const getAllProducts = async (req, res) => {
   // Variables
@@ -39,7 +37,7 @@ const getAllProducts = async (req, res) => {
 
   // Get all products query
   const products = await Product.find(queryObject)
-    .select(selectFields)
+    .select('-description')
     .sort(sort)
     .skip(skip)
     .limit(limit);
@@ -68,14 +66,7 @@ const getSingleProduct = async (req, res) => {
   res.status(StatusCodes.OK).json({ data: { product } });
 };
 
-const createProduct = async (req, res) => {};
-const updateProduct = async (req, res) => {};
-const deleteProduct = async (req, res) => {};
-
 module.exports = {
   getAllProducts,
   getSingleProduct,
-  createProduct,
-  updateProduct,
-  deleteProduct,
 };

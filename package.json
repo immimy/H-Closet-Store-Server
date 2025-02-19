@@ -24,6 +24,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.8.2",
     "nodemailer": "^6.9.16",
+    "stripe": "^17.5.0",
     "validator": "^13.12.0"
   }
 }

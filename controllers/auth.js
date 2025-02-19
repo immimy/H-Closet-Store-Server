@@ -1,18 +1,22 @@
 const { StatusCodes } = require('http-status-codes');
-const crypto = require('crypto');
 const validator = require('validator');
-const User = require('../models/user');
+const User = require('../models/User');
+const Token = require('../models/Token');
 const CustomError = require('../errors');
 const {
   sendVerificationEmail,
   sendResetPasswordEmail,
 } = require('../utilities/sendEmail');
-const { formatMillisecondToMinute } = require('../utilities/fomatter');
+const { formatMillisecondToMinute } = require('../utilities/formatter');
 const {
   createJWT,
   attachCookieToResponse,
-  hashString,
+  createTokenUser,
 } = require('../utilities/jwt');
+const {
+  generateSecureRandomString,
+  hashString,
+} = require('../utilities/crypto');
 
 const register = async (req, res) => {
   const { username, email, password } = req.body;
@@ -31,14 +35,14 @@ const register = async (req, res) => {
   }
 
   // set up variables
-  const verificationToken = crypto.randomBytes(40).toString('hex');
+  const verificationToken = generateSecureRandomString({ bytes: 40 });
   const halfHour = 1000 * 60 * 30;
   const verificationTokenExpirationDate = new Date(Date.now() + halfHour);
   const tokenLifetime = formatMillisecondToMinute(halfHour);
   const origin = 'http://localhost:5173';
 
   // create user (pending for verified)
-  const user = await User.create({
+  await User.create({
     username,
     email,
     password,
@@ -47,7 +51,7 @@ const register = async (req, res) => {
   });
 
   // send verification email
-  sendVerificationEmail({
+  await sendVerificationEmail({
     username,
     email,
     verificationToken,
@@ -71,6 +75,10 @@ const verifyEmail = async (req, res) => {
   // check if user exists
   const user = await User.findOne({ email, verificationToken });
   if (!user) {
+    throw new CustomError.UnauthenticatedError('Verification Failed');
+  }
+  // check if verification token is the one we provided
+  if (user.verificationToken !== verificationToken) {
     throw new CustomError.UnauthenticatedError('Verification Failed');
   }
 
@@ -122,29 +130,37 @@ const login = async (req, res) => {
     );
   }
 
-  // send back token through cookies
-  const { _id: id, username, role } = user;
-  const userPayload = { id, username, role };
-  const token = createJWT(userPayload);
-  const oneDay = 1000 * 60 * 60 * 24;
-  attachCookieToResponse({
-    res,
-    name: 'token',
-    value: token,
-    lifetime: Date.now() + oneDay,
-  });
+  // create a refresh token that persists until client logs out
+  let refreshToken = '';
+  const refreshTokenDB = await Token.findOne({ user: user._id });
+  if (refreshTokenDB) {
+    if (!refreshTokenDB.isValid) {
+      throw new CustomError.UnauthenticatedError('Invalid credentials');
+    }
+
+    refreshToken = refreshTokenDB.refreshToken;
+  } else {
+    refreshToken = generateSecureRandomString({ bytes: 40 });
+    await Token.create({ user: user._id, refreshToken });
+  }
+
+  // attach token cookies to response
+  const tokenUser = createTokenUser(user);
+  const accessTokenJWT = createJWT({ user: tokenUser });
+  const refreshTokenJWT = createJWT({ user: tokenUser, refreshToken });
+  attachCookieToResponse({ res, accessTokenJWT, refreshTokenJWT });
 
   res.status(StatusCodes.OK).json({ msg: 'User logged in.' });
 };
 
 const logout = async (req, res) => {
+  await Token.findOneAndDelete({ user: req.user.userID });
   attachCookieToResponse({
     res,
-    name: 'token',
-    value: 'logged out',
-    lifetime: Date.now(),
+    accessTokenJWT: 'logged out',
+    refreshTokenJWT: 'logged out',
+    isExpired: true,
   });
-
   res.status(StatusCodes.OK).json({ msg: 'User logged out.' });
 };
 
@@ -161,14 +177,14 @@ const forgotPassword = async (req, res) => {
   if (user) {
     // set up variables
     const username = user.username;
-    const passwordToken = crypto.randomBytes(70).toString('hex');
+    const passwordToken = generateSecureRandomString({ bytes: 70 });
     const tenMinutes = 1000 * 60 * 10;
     const passwordTokenExpirationDate = new Date(Date.now() + tenMinutes);
     const tokenLifetime = formatMillisecondToMinute(tenMinutes);
     const origin = 'http://localhost:5173';
 
     // send reset password email
-    sendResetPasswordEmail({
+    await sendResetPasswordEmail({
       username,
       email,
       passwordToken,

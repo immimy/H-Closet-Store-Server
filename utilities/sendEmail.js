@@ -2,7 +2,7 @@ const nodemailer = require('nodemailer');
 const { google } = require('googleapis');
 const OAuth2 = google.auth.OAuth2;
 const CustomError = require('../errors');
-const { capitalizeFirstLetter } = require('./fomatter');
+const { capitalizeFirstLetter } = require('./formatter');
 
 const sendEtherealMail = ({
   senderName,
@@ -87,7 +87,7 @@ const sendEmail = ({
   });
 };
 
-const sendVerificationEmail = ({
+const sendVerificationEmail = async ({
   username,
   email,
   verificationToken,
@@ -107,7 +107,7 @@ const sendVerificationEmail = ({
   });
 };
 
-const sendResetPasswordEmail = ({
+const sendResetPasswordEmail = async ({
   username,
   email,
   passwordToken,

@@ -13,6 +13,7 @@ const connectDB = require('./db/connectDB');
 const authRouter = require('./routes/auth');
 const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
+const ordersRouter = require('./routes/orders');
 // middleware
 const notFoundMiddleware = require('./middleware/notFound');
 const errorsHandlerMiddleware = require('./middleware/errorHandler');
@@ -29,6 +30,7 @@ app.use(express.json());
 app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/users', usersRouter);
 app.use('/api/v1/products', productsRouter);
+app.use('/api/v1/orders', ordersRouter);
 
 app.use(notFoundMiddleware);
 app.use(errorsHandlerMiddleware);

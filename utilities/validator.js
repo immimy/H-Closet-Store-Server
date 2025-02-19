@@ -1,9 +1,9 @@
-const isRequiredWhen = ({ condition, field }) => {
+const isRequiredWhen = ({ condition, field, message }) => {
   return {
     validator: function (value) {
       return condition(this) && !value ? false : true;
     },
-    message: `product ${field} must be provided`,
+    message: message || `product ${field} must be provided`,
   };
 };
 
