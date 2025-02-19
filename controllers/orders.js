@@ -7,6 +7,7 @@ const {
   cancelPaymentIntent,
 } = require('../utilities/payment');
 const { getStockQuantity } = require('../utilities/order');
+const { checkPermission } = require('../utilities/checkPermission');
 
 const createOrder = async (req, res) => {
   const { userID } = req.user;
@@ -118,6 +119,9 @@ const updateOrder = async (req, res) => {
   if (!order) {
     throw new CustomError.NotFoundError(`No order with id : ${orderID}`);
   }
+
+  // Check if client owns this order
+  checkPermission({ requestUser: req.user, resourceUserID: order.user });
 
   // Cancel order manually
   // (Client navigate away from the Checkout page before paying the order.)
