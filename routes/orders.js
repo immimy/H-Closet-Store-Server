@@ -5,11 +5,15 @@ const {
   createOrder,
   updateOrder,
   getCurrentUserOrders,
+  getSingleOrder,
 } = require('../controllers/orders');
 const { authenticateUser } = require('../middleware/authentication');
 
 router.route('/').post(authenticateUser, createOrder);
 router.route('/showAllMyOrders').get(authenticateUser, getCurrentUserOrders);
-router.route('/:id').patch(authenticateUser, updateOrder);
+router
+  .route('/:id')
+  .get(authenticateUser, getSingleOrder)
+  .patch(authenticateUser, updateOrder);
 
 module.exports = router;

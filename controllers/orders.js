@@ -125,7 +125,7 @@ const updateOrder = async (req, res) => {
 
   // Cancel order manually
   // (Client navigate away from the Checkout page before paying the order.)
-  if (clientSecret && status === 'Canceled') {
+  if (clientSecret && status === 'Failed') {
     const paymentIntentID = clientSecret.split('_').slice(0, 2).join('_');
     cancelPaymentIntent({ paymentIntentID });
   }
@@ -139,12 +139,43 @@ const updateOrder = async (req, res) => {
 };
 
 const getCurrentUserOrders = async (req, res) => {
-  const orders = await Order.find({ user: req.user.userID });
-  res.status(StatusCodes.OK).json({ orders });
+  // Sort
+  const sort = '-createdAt _id';
+  // Pagination
+  const page = Number(req.query.page) || 1;
+  const limit = Number(req.query.limit) || 10;
+  const skip = (page - 1) * limit;
+
+  const totalOrder = await Order.countDocuments({ user: req.user.userID });
+
+  const orders = await Order.find({ user: req.user.userID })
+    .sort(sort)
+    .skip(skip)
+    .limit(limit);
+
+  // Data to send back
+  const meta = {
+    pagination: {
+      totalOrder,
+      currentPage: page,
+      totalPage: Math.ceil(totalOrder / limit) || 1,
+    },
+  };
+  const data = { orderCount: orders.length, orders };
+
+  res.status(StatusCodes.OK).json({ meta, data });
+};
+
+const getSingleOrder = async (req, res) => {
+  const { id } = req.params;
+  const order = await Order.findById(id);
+  checkPermission({ requestUser: req.user, resourceUserID: order.user });
+  res.status(StatusCodes.OK).json({ order });
 };
 
 module.exports = {
   createOrder,
   updateOrder,
   getCurrentUserOrders,
+  getSingleOrder,
 };
