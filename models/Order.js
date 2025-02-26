@@ -125,4 +125,15 @@ OrderSchema.post('save', async function () {
   }
 });
 
+// Expire documents when order status is 'Pending' over 24 hours.
+// So the client secret in Stripe will be marked as 'Incomplete'.
+OrderSchema.index(
+  { createdAt: 1 },
+  {
+    name: 'Partial-TTL-Index',
+    partialFilterExpression: { status: 'Pending' },
+    expireAfterSeconds: 60 * 60 * 24,
+  }
+);
+
 module.exports = mongoose.model('Order', OrderSchema);
