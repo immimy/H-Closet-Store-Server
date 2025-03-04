@@ -42,6 +42,10 @@ const UserSchema = new mongoose.Schema(
     verificationTokenExpirationDate: Date,
     passwordToken: String,
     passwordTokenExpirationDate: Date,
+    isPersisted: {
+      type: Boolean,
+      default: false,
+    },
   },
   { timestamps: true }
 );
@@ -56,5 +60,16 @@ UserSchema.pre('save', async function () {
   const salt = await bcrypt.genSalt(10);
   this.password = await bcrypt.hash(this.password, salt);
 });
+
+// For demo purpose, delete all registered user accounts after 24 hours.
+// (Only demo user still remains in this site.)
+UserSchema.index(
+  { createdAt: 1 },
+  {
+    name: 'Partial-TTL-Index',
+    partialFilterExpression: { role: 'user', isPersisted: false },
+    expireAfterSeconds: 60 * 60 * 24, // one day
+  }
+);
 
 module.exports = mongoose.model('User', UserSchema);

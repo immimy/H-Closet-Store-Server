@@ -5,7 +5,7 @@ const {
   showCurrentUser,
   deleteSingleUser,
   getAllUsers,
-} = require('../controllers/user');
+} = require('../controllers/users');
 const { authenticateUser } = require('../middleware/authentication');
 const { authorizePermission } = require('../middleware/authorization');
 

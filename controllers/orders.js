@@ -8,6 +8,8 @@ const {
 } = require('../utilities/payment');
 const { getStockQuantity } = require('../utilities/order');
 const { checkPermission } = require('../utilities/checkPermission');
+const { randomData } = require('../utilities/random');
+const { firstNames, lastNames, addresses: fakeAddresses } = require('../data');
 
 const createOrder = async (req, res) => {
   const { userID } = req.user;
@@ -72,11 +74,15 @@ const createOrder = async (req, res) => {
     subtotal += price * itemAmount;
   }
 
-  const total = subtotal + shippingFee;
+  const total = Math.round(subtotal + shippingFee);
 
+  // Set default shipping address for demo user
+  const isDemoUser = req.user.username === 'demo';
   const shippingAddress = {
-    name: name.trim(),
-    address: address.trim(),
+    name: isDemoUser
+      ? `${randomData(firstNames)} ${randomData(lastNames)}`
+      : name.trim(),
+    address: isDemoUser ? randomData(fakeAddresses) : address.trim(),
   };
 
   let paymentIntent = null;

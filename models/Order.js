@@ -132,7 +132,7 @@ OrderSchema.index(
   {
     name: 'Partial-TTL-Index',
     partialFilterExpression: { status: 'Pending' },
-    expireAfterSeconds: 60 * 60 * 24,
+    expireAfterSeconds: 60 * 60 * 24, // one day
   }
 );
 
