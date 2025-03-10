@@ -1,10 +1,6 @@
 const mongoose = require('mongoose');
 const { isRequiredWhen } = require('../utilities/validator');
-const Product = require('./Product');
-const {
-  updateProductInventory,
-  getInventoryIndex,
-} = require('../utilities/order');
+const { manipulateProducts } = require('../utilities/order');
 
 const SingleOrderItemSchema = new mongoose.Schema({
   product: {
@@ -80,53 +76,50 @@ const OrderSchema = new mongoose.Schema(
       }),
     },
     paymentIntentID: { type: String },
+    isPersisted: {
+      type: Boolean,
+      default: false,
+    },
   },
   { timestamps: true }
 );
 
-// Update product inventory when
-// 1. Client place order
-// 2. Order failed or client cancel order
+// Update product inventory and sales figures
 OrderSchema.post('save', async function () {
-  const targetOrderStatus = ['Pending', 'Ordered', 'Failed', 'Canceled'];
+  const targetOrderStatus = ['Ordered', 'Failed', 'Canceled'];
+  if (!targetOrderStatus.includes(this.status)) return;
 
-  const orderStatus = this.status;
-  const orderPaymentMethod = this.paymentMethod;
-  const orderItems = this.orderItems;
-
-  if (!targetOrderStatus.includes(orderStatus)) return;
-
-  for (const singleOrderItem of orderItems) {
-    const { product: productID, size, color, amount } = singleOrderItem;
-
-    const product = await Product.findById(productID);
-    const inventoryIndex = getInventoryIndex({
-      product,
-      option: size || color,
+  // Paid order
+  // update sales figures (+)
+  if (this.status === 'Ordered') {
+    return manipulateProducts({
+      orderItems: this.orderItems,
+      updateSalesFigures: 'increase',
     });
-    const updatedInventory = [...product.inventory];
+  }
 
-    // Place order
-    if (
-      orderStatus === 'Pending' ||
-      (orderPaymentMethod === 'cash on delivery' && orderStatus === 'Ordered')
-    ) {
-      updatedInventory[inventoryIndex] -= amount;
-      product.inventory = updatedInventory;
-      await product.save();
-    }
+  // Failed order (failed to checkout)
+  // update product inventory (+)
+  if (this.status === 'Failed') {
+    return manipulateProducts({
+      orderItems: this.orderItems,
+      updateInventory: 'increase',
+    });
+  }
 
-    // Order failed or Cancel order
-    if (orderStatus === 'Failed' || orderStatus === 'Canceled') {
-      updatedInventory[inventoryIndex] += amount;
-      product.inventory = updatedInventory;
-      await product.save();
-    }
+  // Canceled order (refund)
+  // update product inventory (+)
+  // update sales figures (-)
+  if (this.status === 'Canceled') {
+    return manipulateProducts({
+      orderItems: this.orderItems,
+      updateInventory: 'increase',
+      updateSalesFigures: 'decrease',
+    });
   }
 });
 
 // Expire documents when order status is 'Pending' over 24 hours.
-// So the client secret in Stripe will be marked as 'Incomplete'.
 OrderSchema.index(
   { createdAt: 1 },
   {
