@@ -28,6 +28,9 @@ const SingleOrderItemSchema = new mongoose.Schema({
     }),
   },
   price: { type: Number, required: true },
+  isOnSale: { type: Boolean, require: true },
+  discount: { type: Number, required: true },
+  sellingPrice: { type: Number, required: true },
   amount: { type: Number, required: true },
 });
 
@@ -80,12 +83,13 @@ const OrderSchema = new mongoose.Schema(
       type: Boolean,
       default: false,
     },
+    discounts: Number,
   },
   { timestamps: true }
 );
 
 // Update product inventory and sales figures
-OrderSchema.post('save', async function () {
+OrderSchema.pre('save', async function () {
   const targetOrderStatus = ['Ordered', 'Failed', 'Canceled'];
   if (!targetOrderStatus.includes(this.status)) return;
 

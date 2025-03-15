@@ -79,8 +79,26 @@ const ProductSchema = new mongoose.Schema(
       type: Number,
       default: 0,
     },
+    isOnSale: {
+      type: Boolean,
+      default: false,
+    },
+    discount: {
+      type: Number, // like 10% discount from price
+      default: 0,
+    },
+    sellingPrice: Number,
   },
   { timestamps: true }
 );
+
+// Calculate selling price automatically if any of price, isOnSale or discount is updated.
+ProductSchema.pre('save', function () {
+  if (!this.isModified('price isOnSale discount')) return;
+
+  this.sellingPrice = this.isOnSale
+    ? this.price * (1 - this.discount / 100)
+    : this.price;
+});
 
 module.exports = mongoose.model('Product', ProductSchema);

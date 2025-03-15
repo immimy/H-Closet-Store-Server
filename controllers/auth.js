@@ -195,7 +195,7 @@ const forgotPassword = async (req, res) => {
     // save password token to user
     user.passwordToken = hashString(passwordToken);
     user.passwordTokenExpirationDate = passwordTokenExpirationDate;
-    user.save();
+    await user.save();
   }
 
   res.status(StatusCodes.OK).json({
@@ -222,7 +222,7 @@ const resetPassword = async (req, res) => {
     user.password = password;
     user.passwordToken = null;
     user.passwordTokenExpirationDate = null;
-    user.save();
+    await user.save();
   }
 
   res.status(StatusCodes.OK).json({ msg: 'Reset Password Success!' });

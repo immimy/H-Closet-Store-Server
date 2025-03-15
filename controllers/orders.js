@@ -61,6 +61,7 @@ const createOrder = async (req, res) => {
   // Validate cart items & Create order items & Calculate subtotal
   let orderItems = [];
   let subtotal = 0;
+  let discounts = 0;
   for (const item of cartItems) {
     const { productID, size: itemSize, color: itemColor } = item;
     const itemAmount = +item.amount;
@@ -84,7 +85,17 @@ const createOrder = async (req, res) => {
       );
     }
 
-    const { _id, name, category, image, price } = dbProduct;
+    const {
+      _id,
+      name,
+      category,
+      image,
+      price,
+      isOnSale,
+      discount,
+      sellingPrice,
+    } = dbProduct;
+    // const sellingPrice = isOnSale ? price * (1 - discount / 100) : price;
     const singleOrderItem = {
       product: _id,
       name,
@@ -93,13 +104,20 @@ const createOrder = async (req, res) => {
       size: itemSize,
       color: itemColor,
       price,
+      isOnSale,
+      discount,
+      sellingPrice,
       amount: itemAmount,
     };
 
     // Add item to order items
     orderItems = [...orderItems, singleOrderItem];
     // Calculate order subtotal
-    subtotal += price * itemAmount;
+    subtotal += sellingPrice * itemAmount;
+    // Calculate discounts
+    if (isOnSale) {
+      discounts += itemAmount * (price - sellingPrice);
+    }
 
     // When client places an order
     // update product inventory (-)
@@ -149,6 +167,7 @@ const createOrder = async (req, res) => {
     paymentMethod,
     shippingAddress,
     clientSecret: paymentIntent?.clientSecret,
+    discounts,
   });
 
   res.status(StatusCodes.CREATED).json({ order });

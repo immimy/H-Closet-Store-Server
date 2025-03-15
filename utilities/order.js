@@ -36,10 +36,10 @@ const manipulateProducts = async ({
     }
 
     // Sales figures update
-    if (updateSalesFigures && updateInventory === 'increase') {
+    if (updateSalesFigures && updateSalesFigures === 'increase') {
       product.salesFigures = salesFigures + amount;
     }
-    if (updateSalesFigures && updateInventory === 'decrease') {
+    if (updateSalesFigures && updateSalesFigures === 'decrease') {
       product.salesFigures = salesFigures - amount;
     }
 
