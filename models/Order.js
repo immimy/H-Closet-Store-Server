@@ -85,8 +85,17 @@ const OrderSchema = new mongoose.Schema(
     },
     discounts: Number,
   },
-  { timestamps: true }
+  { timestamps: true, toJSON: { virtuals: true }, toObject: { virtuals: true } }
 );
+
+// Set virtual field to count reviews related to the order.
+// (Did client already submit reviews for this order?)
+OrderSchema.virtual('reviewCount', {
+  ref: 'Review',
+  localField: '_id',
+  foreignField: 'order',
+  count: true,
+});
 
 // Update product inventory and sales figures
 OrderSchema.pre('save', async function () {
@@ -130,6 +139,16 @@ OrderSchema.index(
     name: 'Partial-TTL-Index',
     partialFilterExpression: { status: 'Pending' },
     expireAfterSeconds: 60 * 60 * 24, // one day
+  }
+);
+
+// To maintain the DB size, Clean up orders after 3 days.
+OrderSchema.index(
+  { createdAt: 1 },
+  {
+    name: 'Partial-TTL-Index',
+    partialFilterExpression: { isPersisted: false },
+    expireAfterSeconds: 60 * 60 * 24 * 3, // 3 days
   }
 );
 

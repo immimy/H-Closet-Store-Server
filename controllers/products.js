@@ -1,5 +1,8 @@
 const { StatusCodes } = require('http-status-codes');
+const CustomError = require('../errors');
 const Product = require('../models/Product');
+const Review = require('../models/Review');
+const mongoose = require('mongoose');
 
 const getAllProducts = async (req, res) => {
   // Variables
@@ -70,7 +73,19 @@ const getAllProducts = async (req, res) => {
 const getSingleProduct = async (req, res) => {
   const { id: productID } = req.params;
   const product = await Product.findById(productID);
-  res.status(StatusCodes.OK).json({ data: { product } });
+
+  // Count number of each rating
+  const countEachRating = await Review.aggregate([
+    { $match: { product: new mongoose.Types.ObjectId(productID) } },
+    {
+      $group: {
+        _id: '$rating',
+        count: { $sum: 1 },
+      },
+    },
+  ]);
+
+  res.status(StatusCodes.OK).json({ data: { product, countEachRating } });
 };
 
 const getBestsellerProducts = async (req, res) => {
@@ -79,6 +94,58 @@ const getBestsellerProducts = async (req, res) => {
     .sort('-salesFigures _id')
     .limit(limit);
   res.status(StatusCodes.OK).json({ productCount: products.length, products });
+};
+
+const createProduct = async (req, res) => {
+  const {
+    name,
+    category,
+    type,
+    brand,
+    image,
+    description,
+    color,
+    price,
+    inventory,
+    discount,
+  } = req.body;
+  let isOnSale = false;
+
+  if (
+    !name ||
+    !category ||
+    !type ||
+    !brand ||
+    !image ||
+    !description ||
+    !color ||
+    !price ||
+    !inventory
+  ) {
+    throw new CustomError.BadRequestError(
+      'Please provide name, category, type, brand, image, description, color, price and inventory values.'
+    );
+  }
+
+  if (discount) {
+    isOnSale = true;
+  }
+
+  const product = await Product.create({
+    name,
+    category,
+    type,
+    brand,
+    image,
+    description,
+    color,
+    price,
+    inventory,
+    isOnSale,
+    discount,
+  });
+
+  res.status(StatusCodes.CREATED).json({ product });
 };
 
 const updateProduct = async (req, res) => {
@@ -94,9 +161,16 @@ const updateProduct = async (req, res) => {
   res.status(StatusCodes.OK).json({ product });
 };
 
+const deleteProduct = async (req, res) => {
+  await Product.findOneAndDelete({ _id: req.params.id });
+  res.status(StatusCodes.OK).json({ msg: 'Product deleted!' });
+};
+
 module.exports = {
   getAllProducts,
   getSingleProduct,
   getBestsellerProducts,
+  createProduct,
   updateProduct,
+  deleteProduct,
 };

@@ -215,7 +215,8 @@ const getCurrentUserOrders = async (req, res) => {
   const orders = await Order.find({ user: req.user.userID })
     .sort(sort)
     .skip(skip)
-    .limit(limit);
+    .limit(limit)
+    .populate('reviewCount');
 
   // Data to send back
   const meta = {

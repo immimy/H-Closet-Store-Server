@@ -94,7 +94,7 @@ const sendVerificationEmail = async ({
   tokenLifetime,
   origin,
 }) => {
-  return sendEtherealMail({
+  return sendEmail({
     senderName: 'H.Closet Store Admin',
     recipientName: capitalizeFirstLetter(username),
     recipientEmail: email,
@@ -114,7 +114,7 @@ const sendResetPasswordEmail = async ({
   tokenLifetime,
   origin,
 }) => {
-  return sendEtherealMail({
+  return sendEmail({
     senderName: 'H.Closet Store Admin',
     recipientName: capitalizeFirstLetter(username),
     recipientEmail: email,

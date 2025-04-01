@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 const { isRequiredWhen } = require('../utilities/validator');
+const Review = require('../models/Review');
 
 const ProductSchema = new mongoose.Schema(
   {
@@ -88,6 +89,8 @@ const ProductSchema = new mongoose.Schema(
       default: 0,
     },
     sellingPrice: Number,
+    numOfReviews: Number,
+    avgRating: Number,
   },
   { timestamps: true }
 );
@@ -99,6 +102,11 @@ ProductSchema.pre('save', function () {
   this.sellingPrice = this.isOnSale
     ? this.price * (1 - this.discount / 100)
     : this.price;
+});
+
+// When delete product also delete related reviews.
+ProductSchema.post('findOneAndDelete', async function (doc) {
+  await Review.deleteMany({ product: doc._id });
 });
 
 module.exports = mongoose.model('Product', ProductSchema);
