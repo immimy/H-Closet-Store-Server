@@ -7,6 +7,10 @@ const app = express();
 // rest of the packages
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
+const helmet = require('helmet');
+const xss = require('xss-clean');
+const rateLimiter = require('express-rate-limit');
+const mongoSanitize = require('express-mongo-sanitize');
 // database
 const connectDB = require('./db/connectDB');
 // routers
@@ -24,6 +28,16 @@ const errorsHandlerMiddleware = require('./middleware/errorHandler');
 // to only allows cross-site requests from our front-end
 // and properly send back cookies to the frond-end site.
 app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.set('trust proxy', 1);
+app.use(
+  rateLimiter({
+    windowMs: 1000 * 60 * 15, // 15 minutes
+    limit: 100,
+  })
+);
+app.use(helmet());
+app.use(xss());
+app.use(mongoSanitize());
 
 app.use(cookieParser(process.env.JWT_SECRET));
 app.use(express.json());
