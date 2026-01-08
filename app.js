@@ -7,7 +7,7 @@ const app = express();
 // rest of the packages
 const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
-const xss = require('xss-clean');
+const xss = require('xss');
 const rateLimiter = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
 // database
