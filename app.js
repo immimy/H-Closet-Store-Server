@@ -6,7 +6,6 @@ const express = require('express');
 const app = express();
 // rest of the packages
 const cookieParser = require('cookie-parser');
-const cors = require('cors');
 const helmet = require('helmet');
 const xss = require('xss-clean');
 const rateLimiter = require('express-rate-limit');
