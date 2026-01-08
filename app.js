@@ -6,9 +6,8 @@ const express = require('express');
 const app = express();
 // rest of the packages
 const cookieParser = require('cookie-parser');
-const cors = require('cors');
 const helmet = require('helmet');
-const xss = require('xss-clean');
+const { xss } = require('express-xss-sanitizer');
 const rateLimiter = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
 // database
@@ -23,11 +22,6 @@ const reviewsRouter = require('./routes/reviews');
 const notFoundMiddleware = require('./middleware/notFound');
 const errorsHandlerMiddleware = require('./middleware/errorHandler');
 
-// Due to cookies are available only on the same domain,
-// set up the origin and credentials options
-// to only allows cross-site requests from our front-end
-// and properly send back cookies to the frond-end site.
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
 app.set('trust proxy', 1);
 app.use(
   rateLimiter({
@@ -35,12 +29,13 @@ app.use(
     limit: 100,
   })
 );
-app.use(helmet());
-app.use(xss());
-app.use(mongoSanitize());
 
 app.use(cookieParser(process.env.JWT_SECRET));
 app.use(express.json());
+
+app.use(helmet());
+app.use(mongoSanitize());
+app.use(xss());
 
 app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/users', usersRouter);
