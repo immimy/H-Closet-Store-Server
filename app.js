@@ -23,11 +23,6 @@ const reviewsRouter = require('./routes/reviews');
 const notFoundMiddleware = require('./middleware/notFound');
 const errorsHandlerMiddleware = require('./middleware/errorHandler');
 
-// Due to cookies are available only on the same domain,
-// set up the origin and credentials options
-// to only allows cross-site requests from our front-end
-// and properly send back cookies to the frond-end site.
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
 app.set('trust proxy', 1);
 app.use(
   rateLimiter({
