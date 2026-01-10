@@ -7,7 +7,7 @@ const app = express();
 // rest of the packages
 const cookieParser = require('cookie-parser');
 const helmet = require('helmet');
-const xss = require('xss');
+const { xss } = require('express-xss-sanitizer');
 const rateLimiter = require('express-rate-limit');
 const mongoSanitize = require('express-mongo-sanitize');
 // database
@@ -29,12 +29,13 @@ app.use(
     limit: 100,
   })
 );
-app.use(helmet());
-app.use(xss());
-app.use(mongoSanitize());
 
 app.use(cookieParser(process.env.JWT_SECRET));
 app.use(express.json());
+
+app.use(helmet());
+app.use(mongoSanitize());
+app.use(xss());
 
 app.use('/api/v1/auth', authRouter);
 app.use('/api/v1/users', usersRouter);
