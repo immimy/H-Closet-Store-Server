@@ -18,6 +18,7 @@ const usersRouter = require('./routes/users');
 const productsRouter = require('./routes/products');
 const ordersRouter = require('./routes/orders');
 const reviewsRouter = require('./routes/reviews');
+const healthRouter = require('./routes/health');
 // middleware
 const notFoundMiddleware = require('./middleware/notFound');
 const errorsHandlerMiddleware = require('./middleware/errorHandler');
@@ -27,7 +28,7 @@ app.use(
   rateLimiter({
     windowMs: 1000 * 60 * 15, // 15 minutes
     limit: 100,
-  })
+  }),
 );
 
 app.use(cookieParser(process.env.JWT_SECRET));
@@ -42,6 +43,7 @@ app.use('/api/v1/users', usersRouter);
 app.use('/api/v1/products', productsRouter);
 app.use('/api/v1/orders', ordersRouter);
 app.use('/api/v1/reviews', reviewsRouter);
+app.use('/api/v1/health', healthRouter);
 
 app.use(notFoundMiddleware);
 app.use(errorsHandlerMiddleware);
