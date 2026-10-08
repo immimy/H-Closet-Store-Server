@@ -47,7 +47,7 @@ const UserSchema = new mongoose.Schema(
       default: false,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 UserSchema.methods.comparePassword = async function (candidatePassword) {
@@ -66,10 +66,10 @@ UserSchema.pre('save', async function () {
 UserSchema.index(
   { createdAt: 1 },
   {
-    name: 'Partial-TTL-Index',
+    name: 'registered_users_ttl_1d',
     partialFilterExpression: { role: 'user', isPersisted: false },
     expireAfterSeconds: 60 * 60 * 24, // one day
-  }
+  },
 );
 
 module.exports = mongoose.model('User', UserSchema);
