@@ -6,38 +6,10 @@ const {
   createPaymentIntent,
   cancelPaymentIntent,
 } = require('../utilities/payment');
-const {
-  getStockQuantity,
-  getInventoryIndex,
-  manipulateProducts,
-} = require('../utilities/order');
+const { getStockQuantity, getInventoryIndex } = require('../utilities/order');
 const { checkPermission } = require('../utilities/checkPermission');
 const { randomData } = require('../utilities/random');
 const { firstNames, lastNames, addresses: fakeAddresses } = require('../data');
-
-// FIX BUG
-// Client doesn't check out until MongoDB automatically deletes that order by TTL indexes,
-// so we need to update product inventory (+)
-// and cancel payment intent to Stripe.
-const changeStream = Order.watch([], {
-  fullDocumentBeforeChange: 'whenAvailable',
-});
-changeStream.on('change', async (change) => {
-  if (change.operationType !== 'delete') return;
-  const { fullDocumentBeforeChange: order } = change;
-  if (!order || order?.status !== 'Pending') return;
-  const { orderItems, clientSecret } = order;
-
-  // cancel payment intent
-  const paymentIntentID = clientSecret.split('_').slice(0, 2).join('_');
-  cancelPaymentIntent({ paymentIntentID });
-
-  // update product inventory (+)
-  manipulateProducts({
-    orderItems,
-    updateInventory: 'increase',
-  });
-});
 
 const createOrder = async (req, res) => {
   const { userID } = req.user;
@@ -75,13 +47,13 @@ const createOrder = async (req, res) => {
     // Check if cart item exists in the database.
     if (!dbProduct) {
       throw new CustomError.NotFoundError(
-        `No product with id : ${item.productID}`
+        `No product with id : ${item.productID}`,
       );
     }
     // Check if cart item exceeds the quantity in stock.
     if (itemAmount > dbAmount) {
       throw new CustomError.BadRequestError(
-        `Product with id '${productID}' exceeds the available quantity.`
+        `Product with id '${productID}' exceeds the available quantity.`,
       );
     }
 

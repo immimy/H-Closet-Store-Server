@@ -22,6 +22,8 @@ const healthRouter = require('./routes/health');
 // middleware
 const notFoundMiddleware = require('./middleware/notFound');
 const errorsHandlerMiddleware = require('./middleware/errorHandler');
+// watchers
+const startWatchers = require('./watchers');
 
 app.set('trust proxy', 1);
 app.use(
@@ -52,6 +54,7 @@ const port = process.env.PORT || 5000;
 const start = async () => {
   try {
     await connectDB(process.env.MONGO_URI);
+    await startWatchers();
     app.listen(port, console.log(`Server is listening on port ${port}...`));
   } catch (error) {
     console.log(error);

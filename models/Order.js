@@ -89,6 +89,9 @@ const OrderSchema = new mongoose.Schema(
     timestamps: true,
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
+    collectionOptions: {
+      changeStreamPreAndPostImages: { enabled: true },
+    },
   },
 );
 
